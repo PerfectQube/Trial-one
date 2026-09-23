@@ -1,0 +1,32 @@
+size(1000,1000);
+background(#ffffff);
+
+//middle sigil
+noFill();
+circle(500, 500, 150);
+circle(500, 500, 170);
+circle(500, 500, 190);
+
+noStroke();
+fill(#ffffff);
+circle(500, 450, 100);
+
+stroke(#000000);
+arc(500, 450, 100, 100, HALF_PI, TWO_PI);
+arc(500, 550, 100, 100, radians(0), radians(180));
+arc(500, 550, 100, 100, radians(270), TWO_PI);
+
+//sign of convergence
+noFill();
+triangle(500, 250, 600, 150, 400, 150);
+triangle(500, 750, 600, 850, 400, 850);
+triangle(150, 400, 250, 500, 150, 600);
+triangle(850, 400, 750, 500, 850, 600);
+
+//sign of levitation
+
+
+noFill();
+circle(500, 500, 800);
+
+save("Trial_1_260923.png");
